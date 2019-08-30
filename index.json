@@ -79,20 +79,8 @@
         "links": {
           "type": "array",
           "items": {
-            "type": "object",
-            "properties": {
-              "uri": {
-                "type": "string",
-                "format": "uri"
-              },
-              "action": {
-                "type": "string",
-                "minLength": 1
-              }
-            },
-            "required": [
-              "uri"
-            ]
+            "type": "string",
+            "format": "uri"
           }
         }
       },

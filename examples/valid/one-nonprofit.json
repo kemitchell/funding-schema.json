@@ -5,10 +5,7 @@
       "name": "Apache Foundation",
       "type": "nonprofit",
       "links": [
-        {
-          "uri": "https://www.apache.org/foundation/contributing.html",
-          "action": "donate"
-        }
+        "https://www.apache.org/foundation/contributing.html"
       ],
       "updated": "2019-04-11"
     }

@@ -5,10 +5,7 @@
       "name": "John Example",
       "type": "person",
       "links": [
-        {
-          "action": "donate",
-          "uri": "https://example.com/donate"
-        }
+        "https://example.com/donate"
       ],
       "updated": "2019-04-11"
     }
