@@ -50,7 +50,7 @@ Funding resources can also incorporate resources for specific contributors by re
 }
 ```
 
-## npm Package
+## API
 
 This package exports a JSON schema for funding objects.
 
