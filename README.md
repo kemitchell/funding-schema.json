@@ -1,6 +1,6 @@
-JSON schema for open software project sustainability resources
+JSON schema for open software project funding resources
 
-This package exports a JSON schema for sustainability objects.
+This package exports a JSON schema for funding objects.
 
 The `definitions` property of the schema contains all sub-schemas that you might like to load individually:
 

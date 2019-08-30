@@ -2,7 +2,7 @@
   "$ref": "#/definitions/project",
   "definitions": {
     "project": {
-      "title": "open software project sustainability metadata object",
+      "title": "open software project funding metadata object",
       "type": "object",
       "properties": {
         "project": {
