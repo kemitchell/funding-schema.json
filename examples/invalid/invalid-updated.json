@@ -4,6 +4,7 @@
     {
       "name": "John Example",
       "type": "person",
+      "updated": "blah",
       "links": [
         "https://example.com/donate"
       ]

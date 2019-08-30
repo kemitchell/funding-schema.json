@@ -12,7 +12,6 @@ JSON schema for open software project funding resources
       "name": "Feross Aboukhadijeh",
       "type": "person",
       "homepage": "https://feross.org",
-      "updated": "2019-08-30",
       "links": [
         "https://www.patreon.com/feross",
         "https://feross.org/support/"
@@ -30,7 +29,6 @@ JSON schema for open software project funding resources
       "name": "JS Foundation",
       "type": "organization",
       "homepage": "https://js.foundation",
-      "updated": "2019-08-30",
       "links": [
         "https://js.foundation/about/donate"
       ]
@@ -47,7 +45,6 @@ JSON schema for open software project funding resources
       "name": "OpenCollective",
       "type": "organization",
       "homepage": "https://opencollective.com/babel",
-      "updated": "2019-08-30",
       "links": [
         "https://opencollective.com/babel/contribute"
       ]
@@ -64,7 +61,6 @@ JSON schema for open software project funding resources
       "name": "Tidelift",
       "type": "organization",
       "homepage": "https://tidelift.com/",
-      "updated": "2019-08-30",
       "links": [
         "https://tidelift.com/subscription/pkg/npm-chalk"
       ]
