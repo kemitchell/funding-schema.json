@@ -2,7 +2,7 @@
   "project": "https://example.com/project",
   "contributors": [
     {
-      "type": "nonprofit",
+      "type": "organization",
       "updated": "2019-04-11"
     }
   ]
