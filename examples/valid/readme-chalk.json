@@ -1,0 +1,14 @@
+{
+  "project": "https://github.com/chalk/chalk",
+  "contributors": [
+    {
+      "name": "Tidelift",
+      "type": "organization",
+      "homepage": "https://tidelift.com/",
+      "updated": "2019-08-30",
+      "links": [
+        "https://tidelift.com/subscription/pkg/npm-chalk"
+      ]
+    }
+  ]
+}

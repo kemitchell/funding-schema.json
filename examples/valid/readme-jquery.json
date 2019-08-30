@@ -1,0 +1,14 @@
+{
+  "project": "https://jquery.com",
+  "contributors": [
+    {
+      "name": "JS Foundation",
+      "type": "organization",
+      "homepage": "https://js.foundation",
+      "updated": "2019-08-30",
+      "links": [
+        "https://js.foundation/about/donate"
+      ]
+    }
+  ]
+}

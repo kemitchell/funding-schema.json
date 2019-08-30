@@ -2,49 +2,81 @@
 
 JSON schema for open software project funding resources
 
-## Example
+## Examples
 
 ```json
 {
-  "project": "https://github.com/kemitchell/funding-schema.json",
+  "project": "https://standardjs.com",
   "contributors": [
     {
-      "name": "npm, Inc.",
-      "type": "organization",
-      "homepage": "https://npmjs.com",
-      "updated": "2019-08-30",
-      "links": [
-        "https://npmjs.com/enterprise"
-      ]
-    },
-    {
-      "name": "Kyle E. Mitchell",
+      "name": "Feross Aboukhadijeh",
       "type": "person",
-      "homepage": "https://kemitchell.com",
+      "homepage": "https://feross.org",
       "updated": "2019-08-30",
       "links": [
-        "https://kemitchell.com/fund"
+        "https://www.patreon.com/feross",
+        "https://feross.org/support/"
       ]
     }
   ]
 }
 ```
 
-Funding resources can also incorporate resources for specific contributors by reference:
+```json
+{
+  "project": "https://jquery.com",
+  "contributors": [
+    {
+      "name": "JS Foundation",
+      "type": "organization",
+      "homepage": "https://js.foundation",
+      "updated": "2019-08-30",
+      "links": [
+        "https://js.foundation/about/donate"
+      ]
+    }
+  ]
+}
+```
+
+```json
+{
+  "project": "https://babeljs.io",
+  "contributors": [
+    {
+      "name": "OpenCollective",
+      "type": "organization",
+      "homepage": "https://opencollective.com/babel",
+      "updated": "2019-08-30",
+      "links": [
+        "https://opencollective.com/babel/contribute"
+      ]
+    }
+  ]
+}
+```
+
+```json
+{
+  "project": "https://github.com/chalk/chalk",
+  "contributors": [
+    {
+      "name": "Tidelift",
+      "type": "organization",
+      "homepage": "https://tidelift.com/",
+      "updated": "2019-08-30",
+      "links": [
+        "https://tidelift.com/subscription/pkg/npm-chalk"
+      ]
+    }
+  ]
+}
+```
 
 ```json
 {
   "project": "https://github.com/kemitchell/funding-schema.json",
   "contributors": [
-    {
-      "name": "npm, Inc.",
-      "type": "organization",
-      "homepage": "https://npmjs.com",
-      "updated": "2019-08-30",
-      "links": [
-        "https://npmjs.com/enterprise"
-      ]
-    },
     { "uri": "https://kemitchell.com/funding.json" }
   ]
 }

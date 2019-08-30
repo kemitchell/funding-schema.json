@@ -1,0 +1,15 @@
+{
+  "project": "https://standardjs.com",
+  "contributors": [
+    {
+      "name": "Feross Aboukhadijeh",
+      "type": "person",
+      "homepage": "https://feross.org",
+      "updated": "2019-08-30",
+      "links": [
+        "https://www.patreon.com/feross",
+        "https://feross.org/support/"
+      ]
+    }
+  ]
+}

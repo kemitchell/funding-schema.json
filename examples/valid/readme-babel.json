@@ -1,0 +1,14 @@
+{
+  "project": "https://babeljs.io",
+  "contributors": [
+    {
+      "name": "OpenCollective",
+      "type": "organization",
+      "homepage": "https://opencollective.com/babel",
+      "updated": "2019-08-30",
+      "links": [
+        "https://opencollective.com/babel/contribute"
+      ]
+    }
+  ]
+}
