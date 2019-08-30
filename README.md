@@ -1,4 +1,56 @@
+# funding-schema
+
 JSON schema for open software project funding resources
+
+## Example
+
+```json
+{
+  "project": "https://github.com/kemitchell/funding-schema.json",
+  "contributors": [
+    {
+      "name": "npm, Inc.",
+      "type": "organization",
+      "homepage": "https://npmjs.com",
+      "updated": "2019-08-30",
+      "links": [
+        "https://npmjs.com/enterprise"
+      ]
+    },
+    {
+      "name": "Kyle E. Mitchell",
+      "type": "person",
+      "homepage": "https://kemitchell.com",
+      "updated": "2019-08-30",
+      "links": [
+        "https://kemitchell.com/fund"
+      ]
+    }
+  ]
+}
+```
+
+Funding resources can also incorporate resources for specific contributors by reference:
+
+```json
+{
+  "project": "https://github.com/kemitchell/funding-schema.json",
+  "contributors": [
+    {
+      "name": "npm, Inc.",
+      "type": "organization",
+      "homepage": "https://npmjs.com",
+      "updated": "2019-08-30",
+      "links": [
+        "https://npmjs.com/enterprise"
+      ]
+    },
+    { "uri": "https://kemitchell.com/funding.json" }
+  ]
+}
+```
+
+## npm Package
 
 This package exports a JSON schema for funding objects.
 
