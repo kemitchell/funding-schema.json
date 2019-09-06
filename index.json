@@ -83,8 +83,7 @@
         }
       },
       "required": [
-        "name",
-        "type"
+        "name"
       ]
     }
   }
