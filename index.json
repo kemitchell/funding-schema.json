@@ -56,8 +56,7 @@
           "title": "contributor type",
           "enum": [
             "person",
-            "organization",
-            "government"
+            "organization"
           ]
         },
         "updated": {
